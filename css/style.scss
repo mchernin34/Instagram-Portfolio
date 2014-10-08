@@ -18,3 +18,19 @@ $margin: 10px;
 $font-family-sans-serif: $main-font;
 
 @import 'bootstrap';
+
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  color: $grey;
+  font-size: $font-size;
+}
+
+header {
+  max-height: 600px;
+  height: 600px;
+  overflow: hidden;
+}
