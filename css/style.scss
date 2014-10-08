@@ -100,6 +100,44 @@ header {
       margin: 0;
     }
   }
+
+  .social {
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    overflow: hidden;
+
+    a {
+      float: left;
+      width: 26px;
+      height: 26px;
+      margin: 0 5px;
+      text-indent: -9999px;
+      background: url(../images/social-sprite.png) no-repeat;
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1.0;
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-min-device-pixel-ratio: 2) {
+        background: url(../images/social-sprite@2x.png) no-repeat;
+        background-size: 76px 26px;
+      }
+
+      &.facebook {
+        background-position: 0 0;
+      }
+
+      &.twitter {
+        background-position: -25px 0;
+      }
+
+      &.instagram {
+        background-position: -50px 0;
+      }
+    }
+  }
 }
 
 // fancy font
