@@ -5313,3 +5313,24 @@ header {
         left: auto;
         margin: 0;
         width: 100%; } }
+
+.name {
+  font-size: 21px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white; }
+
+.titles {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .titles {
+      bottom: 50%; } }
+
+h1, h2 {
+  width: 100%;
+  color: white;
+  margin: 0; }
