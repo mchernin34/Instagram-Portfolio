@@ -5301,3 +5301,15 @@ header {
   max-height: 600px;
   height: 600px;
   overflow: hidden; }
+  header img {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px; }
+    @media screen and (min-width: 1200px) {
+      header img {
+        top: auto;
+        left: auto;
+        margin: 0;
+        width: 100%; } }
